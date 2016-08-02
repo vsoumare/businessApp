@@ -2,8 +2,8 @@
 <html>
 <head>
   <title>ShareResource</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -42,6 +42,17 @@
       <% end %>
     <%= yield %>
   </div>
+  <div class="footer">
+		  <div class="container"> 
+    		  <ul class="social_media"> 
+    		      
+        		  <li><a class="github" href="https://github.com/vsoumare" target="_blank"><%= image_tag('github-big-logo.png') %></a></li> 
+        		  <li><a class="linkedin" href="https://www.linkedin.com/in/sounkoun-soumare-85b21a14" target="_blank"><%= image_tag('linkedin-logo.png') %></a></li> 
+        		  <li><a class="twitter" href="https://twitter.com/Vsoumare" target="_blank"><%= image_tag('twitter-logo-silhouette.png') %></a></li> 
+    		  </ul> 
+		      <p>© 2016 Sounkoun Soumare</p> 
+		  </div>
+</div>
 </body>
 </html>
  

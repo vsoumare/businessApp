@@ -12,3 +12,61 @@ background: -webkit-linear-gradient(to left, #00d2ff , #928DAB); /* Chrome 10-25
 background: linear-gradient(to left, #00d2ff , #928DAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
+
+.footer .social_media {
+    margin: 65px 0 20px;
+    width: 100%;
+}
+* {
+    padding: 0;
+}
+.social_media li {
+    display: inline-block;
+    height: 24px;
+    margin: 0 0 0 10px;
+    text-align: left;
+    width: 24px;
+}
+
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.github {
+    background-image: url(/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
+    background-position: center center;
+    
+}
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.linkedin {
+    background-image: url(/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg);
+    background-position: center center;
+}
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.twitter {
+    background-image: url(/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
+    background-position: center center;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
